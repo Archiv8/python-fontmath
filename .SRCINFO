@@ -1,0 +1,17 @@
+pkgbase = python-fontmath
+	pkgdesc = A collection of objects that implement fast font, glyph, etc. math
+	pkgver = 0.9.2
+	pkgrel = 1
+	url = https://github.com/robotools/fontmath
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	depends = python-fonttools
+	source = https://files.pythonhosted.org/packages/source/f/fontMath/fontMath-0.9.2.zip
+	sha512sums = 34a5553cba4a18b5255e99b95971e891b0851aecbec5a31e705542087ff50b422d9c247fb35a4dd70f66afd32fb0f6d2d958195595f137c1e4f9250dfc29abc7
+
+pkgname = python-fontmath
